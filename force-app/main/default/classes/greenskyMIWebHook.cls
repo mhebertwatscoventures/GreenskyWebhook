@@ -5,7 +5,7 @@ global with sharing class greenskyMIWebHook {
             RestRequest request = RestContext.request;
             RestResponse response = RestContext.response;
         } catch (Exception e) {
-            
+            System.debug('Exception = ' e.getMesssage()); 
         }
     }
 }
